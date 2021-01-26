@@ -1,7 +1,7 @@
 my_list = [7, 5, 3, 3, 2]
 print(f"Рейтинг - {my_list}")
 digit = int(input("Введите число"))
-while digit != 111:
+while digit < 100:
     for el in range(len(my_list)):
         if my_list[el] == digit:
             my_list.insert(el + 1, digit)
